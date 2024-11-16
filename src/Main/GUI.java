@@ -105,16 +105,13 @@ public class GUI extends JFrame implements ActionListener {
 			panelNumpad.add(btnAdd);
 		}
 		add(panelNumpad, BorderLayout.CENTER);
-		
-		// Foca no frame
-		setFocusable(true);
 	}
 	
 	/*
 		Faz ultimos ajustes e mostra o frame.
 	*/
 	public void mostrarFrame() {
-		txtVisor.setFocusable(true);
+		setFocusable(true);
 		setLocationRelativeTo(null);
 		setVisible(true);
 	}
